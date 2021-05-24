@@ -1,0 +1,22 @@
+{
+  "name": "create-next-app-default",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "next": "10.2.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-markdown": "^6.0.2",
+    "react-syntax-highlighter": "^15.4.3"
+  }
+}
