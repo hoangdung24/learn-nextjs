@@ -6,8 +6,7 @@ const LoginPage = () => {
 			<button
 				onClick={() => {
 					signIn("facebook", {
-						callbackUrl: "https://learn-nextjs-cyan-one.vercel.app/",
-						redirect: "https://learn-nextjs-cyan-one.vercel.app/",
+						callbackUrl: NEXT_PUBLIC_CALLBACK_URL,
 					});
 				}}>
 				Login
